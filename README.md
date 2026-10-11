@@ -7,17 +7,17 @@
 
 ## GT Medical Robotics Club Team Limbo, Hand Mechanical Lead
 
-Team Limbo developed a low-cost biomechatronic prosthetic hand for trans-radial amputees[cite: 1]. The goal was to build a functional, 5-digit underactuated terminal device that restores grasping capabilities without the high cost of commercial medical devices[cite: 1, 2, 3].
+Team Limbo developed a low-cost biomechatronic prosthetic hand for trans-radial amputees. The goal was to build a functional, 5-digit underactuated terminal device that restores grasping capabilities without the high cost of commercial medical devices.
 
 <p align="center">
   <img src="Images/fusion360_cad_digits.png" width="65%"><br>
   <em>Figure 2: Parametric Digit Kinematics and Internal Palm Routing in Autodesk Fusion 360</em>
 </p>
 
-As the Hand Mechanical Lead, I owned the mechanical architecture, CAD modeling, physical prototyping, and sensor integration[cite: 1, 2, 12]. I also worked with our controls team to validate the hardware for clinical testing with amputee participants[cite: 1]. Key contributions include:
+As the Hand Mechanical Lead, I owned the mechanical architecture, CAD modeling, physical prototyping, and sensor integration. I also worked with our controls team to validate the hardware for clinical testing with amputee participants. Key contributions include:
 
 ### Parametric Modeling and Modular Digits
-I modeled the full hand assembly in Autodesk Fusion 360 with parametric clearance fits for smooth cable movement[cite: 1, 2, 12]. The fingers were designed as modular units that pin directly into slots on the palm chassis[cite: 1, 6]. This setup lets us swap out a broken finger in under two minutes without taking apart the actuator carriage[cite: 1]. I also added internal pockets in the fingertips to house custom slip and force-sensing boards flush with the grip pads[cite: 1].
+I modeled the full hand assembly in Autodesk Fusion 360 with parametric clearance fits for smooth cable movement. The fingers were designed as modular units that pin directly into slots on the palm chassis. This setup lets us swap out a broken finger in under two minutes without taking apart the actuator carriage. I also added internal pockets in the fingertips to house custom slip and force-sensing boards flush with the grip pads.
 
 <table align="center" width="100%">
   <tr>
@@ -34,7 +34,7 @@ I modeled the full hand assembly in Autodesk Fusion 360 with parametric clearanc
 <p align="center"><em>Figure 3: Kinematic Mechanisms: 2-DOF Differential Bevel Wrist (Left) and Anatomical Scale Check (Right)</em></p>
 
 ### Kinematic Synthesis and Wrist Articulation
-To provide wrist articulation without adding excessive distal mass, I designed a 3D-printed differential bevel-gear wrist mechanism[cite: 2, 11]. The unit coordinates dual pinion inputs to achieve coupled 2-DOF pitch and roll movement in a compact footprint[cite: 2, 11]. This layout eliminates bulky dedicated joint housings and keeps the overall wrist length short enough to fit anatomical packaging limits[cite: 2, 11].
+To provide wrist articulation without adding excessive distal mass, I designed a 3D-printed differential bevel-gear wrist mechanism. The unit coordinates dual pinion inputs to achieve coupled 2-DOF pitch and roll movement in a compact footprint. This layout eliminates bulky dedicated joint housings and keeps the overall wrist length short enough to fit anatomical packaging limits.
 
 <table align="center" width="100%">
   <tr>
@@ -51,7 +51,7 @@ To provide wrist articulation without adding excessive distal mass, I designed a
 <p align="center"><em>Figure 4: Mechanical Prototyping: Assembled FDM Palm Housing (Left) and Modular Digit Mounting Interface (Right)</em></p>
 
 ### Iterative Prototyping and Tendon Routing
-I iterated through several desktop FDM prints to check scale against real hands and dial in joint clearances[cite: 6, 9]. The palm chassis packages linear DC actuators in a compact layout[cite: 1]. I routed internal low-friction tendon channels with smooth guide paths to prevent line fraying, reduce friction, and ensure reliable finger return[cite: 1].
+I iterated through several desktop FDM prints to check scale against real hands and dial in joint clearances. The palm chassis packages linear DC actuators in a compact layout. I routed internal low-friction tendon channels with smooth guide paths to prevent line fraying, reduce friction, and ensure reliable finger return.
 
 <table align="center" width="100%">
   <tr>
@@ -68,4 +68,4 @@ I iterated through several desktop FDM prints to check scale against real hands 
 <p align="center"><em>Figure 5: Control Verification: Animated Sensor Glove Teleoperation (Left) and Forearm Surface EMG Testing (Right)</em></p>
 
 ### Control Integration, Endurance Testing, and Clinical Trials
-We validated the hand across multiple testing pipelines. First, I used a flex-sensor data glove to teleoperate the hand in real time and verify finger curling speeds. Next, we integrated the hardware with our forearm surface EMG setup. Our software team used an LSTM model to classify muscle signals into open and close states[cite: 1]. I then ran an automated fatigue test on a microcontroller dyno rig, completing over 42,000 continuous grasp cycles without cable or joint failure[cite: 1]. The finished device transitioned into trials with amputee participants to evaluate real-world grasping tasks[cite: 1].
+We validated the hand across multiple testing pipelines. First, I used a flex-sensor data glove to teleoperate the hand in real time and verify finger curling speeds. Next, we integrated the hardware with our forearm surface EMG setup. Our software team used an LSTM model to classify muscle signals into open and close states. I then ran an automated fatigue test on a microcontroller dyno rig, completing over 42,000 continuous grasp cycles without cable or joint failure. The finished device transitioned into trials with amputee participants to evaluate real-world grasping tasks.
