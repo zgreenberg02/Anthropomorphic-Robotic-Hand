@@ -16,7 +16,7 @@ Mechanical architecture for an anthropomorphic robotic hand built at Georgia Tec
   <em>Figure 1: Fully Integrated Prosthetic Hand Assembly and Kinematic Model</em>
 </p>
 
-## GT Medical Robotics Club Team Limbo, Mechanical Lead
+## GT Medical Robotics Club Team Limbo, Hand Mechanical Lead
 
 Team Limbo developed a low-cost biomechatronic prosthetic hand for trans-radial amputees. The goal was to build a functional, 5-digit underactuated terminal device that restores grasping capabilities without the high cost of commercial medical devices.
 
