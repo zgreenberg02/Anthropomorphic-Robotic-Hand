@@ -12,7 +12,7 @@ Mechanical architecture for an anthropomorphic robotic hand built at Georgia Tec
 # Anthropomorphic Prosthetic Hand
 
 <p align="center">
-  <img src="Images/limbohand_hero.png" width="70%"><br>
+  <img src="Images/limbohand.png" width="70%"><br>
   <em>Figure 1: Fully Integrated Prosthetic Hand Assembly and Kinematic Model</em>
 </p>
 
